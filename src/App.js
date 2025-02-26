@@ -1,5 +1,6 @@
 import './App.css';
 import CheckApiButton from './CheckApiButton';
+import CheckApiHttpWithPhotoshop from './CheckApiHttpWithPhotoshop';
 import CheckHealthButton from './CheckHealthButton';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <CheckApiButton />
       <br />
       <CheckHealthButton />
+      <br />
+      <CheckApiHttpWithPhotoshop />
     </div>
   );
 }
